@@ -1,0 +1,11 @@
+<div class="container">
+  <div style="display: flex; justify-content: space-around;">
+    <button class="btn btn-primary box-shadow" (click)="showAlert('primary')">Primary</button>
+    <button class="btn btn-warning box-shadow" (click)="showAlert('warning')">Warning</button>
+    <button class="btn btn-info box-shadow" (click)="showAlert('info')">Info</button>
+    <button class="btn btn-success box-shadow" (click)="showAlert('success')">Success</button>
+    <button class="btn btn-danger box-shadow" (click)="showAlert('danger')">Danger</button>
+  </div>
+<br>
+  <ng-template alert></ng-template>
+</div>

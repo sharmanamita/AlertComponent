@@ -1,0 +1,9 @@
+<div [ngStyle]="styleConfig" style="margin: 10px;">  
+  <div class="alert-container box-shadow" [style.display]="isVisible ? 'inline-block': 'none'" id="visible">
+    <div [ngClass]="type">
+      <i class="fa fa-exclamation-circle"></i>
+      <div class="alert-msg">{{ message }}</div>
+    </div>
+  </div>
+</div>
+
