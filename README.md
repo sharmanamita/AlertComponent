@@ -1,4 +1,4 @@
-https://github.com/sharmanamita/AlertComponent/alertComponent.png
+https://github.com/sharmanamita/AlertComponent/blob/master/alertComponent.PNG
 
 # CustomAlertComponent
 
